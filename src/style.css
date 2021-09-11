@@ -1,0 +1,54 @@
+/** VARIAVEIS **/
+:root {
+  --color-base: rgb(17, 86, 102);
+}
+
+body {
+  font: 300 1.3rem 'Roboto', sans-serif;
+  background-color: var(--color-base);
+  margin: 0;
+  padding: 0;
+}
+section {
+  background: white;
+  max-width: 40rem;
+  margin: 3.125rem auto;
+  padding: 0.25rem;
+  border-radius: 1.875rem;
+}
+h1 {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font: 700 3rem 'Roboto', sans-serif;
+}
+form input,
+form label,
+form button {
+  display: block;
+  font-size: 1.5rem;
+  margin: 0.25rem 1%;
+  width: 98%;
+}
+form input {
+  width: 98%;
+}
+form button {
+  margin: 1rem 0;
+  padding: 0.25rem;
+  width: 98%;
+  cursor: pointer;
+  background-color: var(--color-base);
+  color: white;
+  font-size: 1.5rem;
+}
+table {
+  margin: 2rem 0;
+  width: 100%;
+}
+table tr th {
+  text-align: center;
+}
+table tr td {
+  text-align: center;
+}
